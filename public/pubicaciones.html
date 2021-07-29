@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Publicaciones</title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<style type="text/css">
+	
+	#fade{
+
+		display: none;
+	}
+
+	.root{
+
+		display: none;
+	}
+
+</style>
+
+</head>
+<body id="fade">
+
+	<div class="card mx-auto mt-5" >
+		<h1 class="mx-auto">Publicaciones</h1>
+
+<a href="index.html">Publicar nuevo post</a>
+
+<div class="card-body" id="Publicaciones">
+
+
+
+</div>
+
+	</div>
+
+	<script type="text/javascript" src="publicaciones.js"></script>
+
+<script>
+	$(document).ready(function(){
+
+		$("#fade").fadeIn(2000, () =>{
+			$(".root").fadeIn(2000)
+		}
+	}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "proyecto-verano",
+  "version": "1.0.0",
+  "description": "app para compartir posts con fotos y texto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jorge",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.13.3",
+    "nodemon": "^2.0.12"
+  }
+}
